@@ -1,7 +1,8 @@
 # Bug in deepmap/oapi-codegen
 
 This repo illustrates a bug in github.com/deepmap/oapi-codegen. The bug appears
-when a colon appears in the path in an API.
+when a colon appears in the path in an API and was fixed in issue 
+https://github.com/deepmap/oapi-codegen/issues/312.
 
 The example located in /petstore/petstore.yaml contains an API with the path
 '/pets:validate:'. The way in which the request URL is constructed from the 
